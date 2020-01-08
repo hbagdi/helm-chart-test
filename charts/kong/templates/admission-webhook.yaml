@@ -15,6 +15,7 @@ metadata:
 webhooks:
 - name: validations.kong.konghq.com
   failurePolicy: {{ .Values.ingressController.admissionWebhook.failurePolicy }}
+  sideEffects: None
   rules:
   - apiGroups:
     - configuration.konghq.com
