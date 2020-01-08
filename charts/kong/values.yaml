@@ -213,7 +213,7 @@ ingressController:
       path: "/healthz"
       port: 10254
       scheme: HTTP
-    initialDelaySeconds: 5
+    initialDelaySeconds: 30
     timeoutSeconds: 5
     periodSeconds: 10
     successThreshold: 1
@@ -223,7 +223,7 @@ ingressController:
       path: "/healthz"
       port: 10254
       scheme: HTTP
-    initialDelaySeconds: 5
+    initialDelaySeconds: 30
     timeoutSeconds: 5
     periodSeconds: 10
     successThreshold: 1
@@ -287,7 +287,7 @@ readinessProbe:
     path: "/status"
     port: metrics
     scheme: HTTP
-  initialDelaySeconds: 5
+  initialDelaySeconds: 30
   timeoutSeconds: 5
   periodSeconds: 10
   successThreshold: 1
@@ -299,7 +299,7 @@ livenessProbe:
     path: "/status"
     port: metrics
     scheme: HTTP
-  initialDelaySeconds: 5
+  initialDelaySeconds: 30
   timeoutSeconds: 5
   periodSeconds: 10
   successThreshold: 1
