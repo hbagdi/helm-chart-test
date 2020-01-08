@@ -1,0 +1,21 @@
+apiVersion: v1
+entries:
+  kong:
+  - apiVersion: v1
+    appVersion: "1.4"
+    created: "2020-01-08T18:14:54.914654027Z"
+    description: The Cloud-Native Ingress and API-management
+    digest: c00e70058b6227d9a58d8b7a5cd0713cd822f899a8d39a3bb49161cca16f7fd6
+    engine: gotpl
+    home: https://konghq.com/
+    icon: https://s3.amazonaws.com/downloads.kong/universe/assets/icon-kong-inc-large.png
+    maintainers:
+    - email: shashi@konghq.com
+      name: shashiranjan84
+    - email: harry@konghq.com
+      name: hbagdi
+    name: kong
+    urls:
+    - https://github.com/hbagdi/helm-chart-test/releases/download/kong-0.36.0/kong-0.36.0.tgz
+    version: 0.36.0
+generated: "2020-01-08T18:14:54.759692154Z"
